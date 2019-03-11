@@ -1,100 +1,304 @@
+*{
+    -webkit-user-select: none;
+}
+
+body{
+    background:url(img/bg_dark.png);
+}
+
+@font-face{
+    font-family:"partybusiness";
+    src:url("fonts/partybusiness.ttf")
+}
+
+@font-face{
+    font-family:"aniron";
+    src:url("fonts/anirm.ttf")
+}
+
+@font-face{
+    font-family:"annatar";
+    src:url("fonts/tnganb.ttf")
+        
+}
+
 @media screen and (max-width:767px){
-    .h2gandalf{position: absolute;left:55px;top:170px;
-      z-index:2;
-      opacity:0;
-      font-size: 20px;
-      color:white;
-      transition: 1s;}
-
-      .h2frodo{position: absolute;left:65px;top:195px;
-        z-index:2;
-        opacity:0;
-        font-size: 20px;
+    .h2gandalf{display:none;}
+    .h2frodo{display:none;}
+    .h2gimli{display:none;}
+    .desk{display:none;}
+    .mobile{display:block;}
+    .fl:hover{
         color:white;
-        transition: 1s;}
+        border-bottom:2px solid transparent;
+    }
+        .navl:hover{
+            border-bottom:2px solid #FF5E00;
+            color:white;
+            text-shadow: white 0px 0px 5px;
+        }
+        
+        .cari{
+            height:30vh;
+        }
 
-      .h2gimli{position: absolute;left:65px;top:150px;
-        z-index:2;
-        opacity:0;
-        font-size: 20px;
-        color:white;
-        transition: 1s;}
+        .carouh{
+            font-size:25px;
+        }
+        
+        .caroup{
+            font-size:20px;
+            color:white;
+        }
+
+        .carousel-caption{
+            position: absolute;
+            top:20px;
+        }
+        .badge{display:none;}
+    .bspecial{display:none;}
 }
 
 @media screen and (min-width:768px){
-  .h2gandalf{position: absolute;left:75px;top:150px;
-    z-index:2;
-    opacity:0;
-    font-size: 25px;
-    color:white;
-    transition: 1s;}
-  
-  .h2frodo{position: absolute;left:85px;top:200px;
-    z-index:2;
-    opacity:0;
-    font-size: 25px;
-    color:white;
-    transition: 1s;}
+    .h2gandalf{display:none;}
+    .h2frodo{display:none;}
+    .h2gimli{display:none;}
+    .desk{display:none;}
+    .mobile{display:block;}
+    .fl:hover{
+        color:white;
+    }
+    .btnarmy{
+        color:#FF5E00;
+        font-size:15px;
+        font-family: aniron;
+        max-width: 80%;
+    }
 
-  .h2gimli{position: absolute;left:85px;top:130px;
-    z-index:2;
-    opacity:0;
-    font-size: 25px;
-    color:white;
-    transition: 1s;}
+    .navl:hover{
+        border-bottom:2px solid #FF5E00;
+        color:white;
+        text-shadow: white 0px 0px 5px;
+    }
+
+    .cari{
+        height: 50vh;
+    }
+
+    .carouh{
+        font-size:40px;
+        color:white;
+    }
+    
+    .caroup{
+        font-size:20px;
+        color:white;
+    }
+    .badge{display:none;}
+    .bspecial{display:none;}
 }
 
 @media screen and (min-width:992px){
-  .h2gandalf{position:absolute;top:180px;left:115px;
-    color:white;
-    z-index:2;
-    opacity:0;
-    transition: 1s;}
+    .h2gandalf{display:none;}
+    .h2frodo{display:none;}
+    .h2gimli{display:none;}
+    .desk{display:none;}
+    .mobile{display:block;}
+    .fl:hover{
+        color:white;
+    }
+    .btnarmy{
+        color:#FF5E00;
+        font-size:15px;
+        font-family: aniron;
+        max-width: 90%;
+    }
 
-  .h2frodo{position:absolute;top:240px;left:125px;
-    color:white;
-    z-index:2;
-    opacity:0;
-    transition: 1s;}
+    .navl:hover{
+        border-bottom:2px solid white;
+        color:white;
+        text-shadow: white 0px 0px 5px;
+    }
 
-  .h2gimli{position:absolute;top:150px;left:125px;
-    color:white;
-    z-index:2;
-    opacity:0;
-    transition: 1s;}
+    .cari{
+        height: 60vh;
+    }
+
+    .carouh{
+        font-size:50px;
+    }
+    
+    .caroup{
+        font-size:25px;
+        color:white;
+    }
+
+    .badge{display:none;}
+    .bspecial{display:none;}
+        
+    
 }
 
-@media screen and (min-width:1200px){
-  .h2gandalf{position:absolute;top:220px;left:145px;
+@media screen and (min-width:1400px){
+    .desk{display:block;}
+  .h2gandalf{position:absolute;top:300px;left:90px;
 color:white;
 z-index:2;
 opacity:0;
-transition: 1s;}
+transition: 1s;
+display:block;}
+.mobile{display:none;}
+.parmy2{
+    position: relative;
+    left:70px;
+}
+.fl:hover{
+    color:white;
+}
+.btnarmy{
+    color:#FF5E00;
+    font-size:20px;
+    font-family: aniron;
+    max-width: 80%;
+    position: relative;
+    left:70px;
+}
 
-.h2frodo{position:absolute;top:300px;left:155px;
+.h2frodo{position:absolute;top:300px;left:90px;
   color:white;
   z-index:2;
   opacity:0;
-  transition: 1s;}
+  transition: 1s;
+display:block;}
 
-.h2gimli{position:absolute;top:180px;left:155px;
+.h2gimli{position:absolute;top:300px;left:115px;
+    text-decoration: line-through;
+    text-decoration-color: orange;
   color:white;
   z-index:2;
-  opacity:0;
-  transition: 1s;}
+  opacity:1;
+  transition: 1s;
+display:block;}
+
+.badge{
+    background:transparent;
+    font-family: partybusiness;
+    font-size:25px;
+    color:grey;
+    margin-bottom:20px;
+    display:block;
+}
+
+.badge:hover{
+    color:#FF5E00;
+}
+
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.bspecial{
+    background:transparent;
+    font-family: partybusiness;
+    font-size:25px;
+    color:#FF5E00;
+    border-bottom:2px solid #FF5E00;
+    border-radius:0%;
+    display:block
+}
+
+.navbar-brand{
+margin-right:50px;
+}
+
+.navl:hover{
+border-bottom:2px solid white;
+color:white;
+text-shadow: white 0px 0px 5px;
+}
+
+.cari{
+    height: 80vh;
+}
+
+.carouh{
+    font-size:60px;
+}
+
+.caroup{
+    font-size:30px;
+    color:white;
+}
+
+.arrow{
+    background: transparent;
+    font-size:70px;
+    color:white;
+    position: absolute;
+    display:block;
+}
+
 
 }
 
-.img1, .img2,.img3{
+.img1, .img2{
   z-index:1;
   opacity:0.7;
   transition: 1.5s;
+  border-radius:0%;
 }
 
+.img3{
+    z-index:1;
+    opacity: 0.4;
+    transition:1.5s;
+    border-radius:0%;
+}
 
-  
-.pcard{z-index:2;
-transition: 0.5s;}
+.imgm{border-radius:0%;}
+
+.pcardg{z-index:2;
+transition: 0.5s;
+position:relative;
+top:-370px;
+left:-10px;
+text-align:center;
+font-family: aniron;
+font-size:20px;
+color:black;
+background:rgba(255,255,255,0.8);
+border-radius:10px;}
+
+.pcarda{z-index:2;
+transition: 0.5s;
+position:relative;
+top:-370px;
+left:5px;
+text-align:center;
+font-family: aniron;
+font-size:20px;
+background:rgba(255,255,255,0.8);
+border-radius:10px;}
+
+.pcarddead{z-index:2;
+transition: 0.5s;
+position:relative;
+top:-360px;
+right:-60px;
+font-family: aniron;
+font-size:20px;
+width:9vw;
+text-align:center;
+border-radius:10px;
+}
+
+.dead{
+    font-size:40px;
+}
+.card-text{
+    font-family:aniron;
+    color:grey;
+    position: relative;
+    top:-5vh;
+}
 
 span{color:orange;
 z-index:2;
@@ -102,14 +306,363 @@ z-index:2;
 
 #army{position: relative;}
 
-.btnarmy{
-    position:absolute;bottom:1px;right: 40px;
-}
-
 #contact{
     padding-bottom:10px;
 }
 
 .effet:hover img{opacity:1;}
-.effet:hover .pcard{opacity:0;}
+.effet:hover .pcarda{opacity:0;}
+.effet:hover .pcardg{opacity:0;}
+.effet:hover .pcarddead{opacity:0;}
 .effet:hover h2{opacity: 1;}
+.effet:hover .h2gimli{opacity:0;}
+
+.navbar{
+    background:#FF5E00;
+    top:0px;
+    width: 100%;
+    z-index: 100;
+}
+
+.navl{
+    color:white!important;
+    font-family:"aniron";
+    position: relative;
+    border-bottom:2px solid #FF5E00;
+}
+.hamber{background:white;}
+
+
+
+.content{
+    padding-top:60px;
+}
+
+.arrow{
+    background: transparent;
+    font-size:70px;
+    color:white;
+    position: absolute;
+    display:block;
+}
+
+.carousel-item{
+font-family: partybusiness;
+}
+
+h2{ margin-bottom:20px;
+    font-family: aniron;
+    font-size:30px;
+}
+.hfellow {
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.or{
+    font-size:15px;
+    color:black;
+}
+.deco{
+    font-family: annatar;
+    font-size:25px;
+    margin-left:15px;
+    margin-right:15px;
+    color:orange;
+}
+
+.deco2{
+    font-family: annatar;
+    font-size:20px;
+    color:orange;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#fellowbg{
+    background:url(img/bg_light.png);
+}
+
+.cardhunter{border:6px solid black;}
+.bodyhunter{
+    background:black;
+}
+.card-text{
+    margin-top:30px;
+}
+
+.darkopa{
+    background:black;
+}
+
+hr{color:#FF5E00;
+border-top:2px solid #FF5E00;
+border-bottom:2px solid #FF5E00;
+width:50%;
+background: #FF5E00;
+position:relative;
+top:-16px;}
+
+.rh{
+    color:white;
+    text-align: center;
+}
+.rp{color:white;
+font-family:aniron;
+font-size:14px;}
+
+.rb{
+    background:white;
+    font-family:partybusiness;
+    font-size:35px;
+    color:#FF5E00;
+    margin-top:20px;
+    margin-bottom:40px;
+    position:relative;
+    left:23vw;
+    
+}
+.rb:hover{
+    background:#FF5E00;
+}
+
+.bghunters{
+    background:url(img/bg_light.png);
+}
+
+.hh{position:relative;
+    top:-10px;
+    padding-bottom:40px;
+    margin-bottom:40px;
+}
+
+#hunters{margin-bottom:10px;
+padding-bottom:50px}
+
+#hunters p{
+    font-family:partybusiness;
+    font-size:21px;
+}
+#hunters h5{
+    font-family:partybusiness;
+    font-size:40px;
+    color:#FF5E00;
+}
+
+.hb{
+    font-family:partybusiness;
+    color:#FF5E00;
+    font-size:20px;
+}
+
+.hb:hover{
+    color:white;
+    background:#FF5E00;
+}
+
+.anno{
+    max-height: 20px;
+    margin-right:10px;
+}
+
+.simg{
+    max-height:150px;
+    max-width:150px;
+}
+
+.ah{
+    color:black;
+    text-decoration:none;
+    border-bottom:2px solid black;
+}
+
+.ah:hover{
+    color:#FF5E00;
+    border-bottom:2px solid #FF5E00;
+}
+
+.ringh{
+    color:white;
+}
+
+.ringc{
+    color:white;
+    background:#FF5E00;
+    font-family:aniron;
+    position: relative;
+    top:-21px;
+    border-radius:20px 20px 0px 0px;
+    padding:20px;
+    margin-right:-36px;
+    margin-left:-36px;
+}
+
+th{
+    font-family: partybusiness;
+    color: black;
+    font-size:25px;
+}
+
+td{
+    font-family: partybusiness;
+    color: black;
+    opacity:0.7;
+    font-size:25px;
+}
+
+.tt{
+    font-family: partybusiness;
+    color: black;
+    background:silver;
+    font-size:30px;
+    border:10px silver solid; 
+    position:relative;
+    top:-10px;  
+}
+
+
+
+.trh{
+    border-bottom:2px solid black;
+}
+
+.trg{
+    border-top:2px solid grey;
+}
+
+
+
+.tablec{
+    background:silver;
+}
+
+.cardtable{background:silver;
+padding:-20px;
+border-radius:20px 20px 0px 0px;
+border-bottom:4px solid #FF5E00;}
+.bodytable{background:transparent;}
+
+thead{
+    border:transparent;
+    text-align:center;
+}
+tbody{
+text-align:center;
+border:transparent;
+}
+
+
+.cardgollum{background:#FF5E00;
+border-radius:20px 20px 0px 0px;
+}
+.bodygollum{background:silver;}
+
+.hgollum{
+    font-family:aniron;
+    color:white;
+}
+
+.pgollum{
+    margin-top:30px;
+    font-family:partybusiness;
+    color:black;
+    font-size: 30px;
+}
+
+.igollum{
+    border-radius:50%;
+}
+
+.fgollum{
+    position: relative;
+    text-align: center;
+    top:-50px;
+    font-family:partybusiness;
+    font-size:30px;
+}
+
+.armybg{
+    background:url(img/bg_light.png)
+}
+
+.armyh{
+    position: relative;
+    top:-10px;
+    padding-bottom:30px;
+}
+
+.parmy{
+    font-family:partybusiness;
+    font-size:25px;
+}
+
+.parmy2{
+    font-family:aniron;
+    font-size:25px;
+    color:#FF5E00;
+    position: relative;
+    top:70px;
+    margin-bottom:20px;
+}
+
+.btnarmy{
+    color:#FF5E00;
+    font-size:20px;
+    font-family: aniron;
+    position:relative;
+    top:70px;
+    margin-bottom:40px;
+}
+
+.btnarmy:hover{
+    background:#FF5E00;
+}
+
+.need{
+    max-height:272px;
+    max-width:406px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.iarmy{
+    margin-top:10px;
+}
+
+.contacth{
+    color:white;
+}
+
+.form-control{
+    font-family:aniron;
+    color:grey;
+}
+
+.imgcontact{
+    max-height:400px;
+    max-width:513px;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.footerb{
+    background:#FF5E00;
+}
+
+.fl{
+    color:white;
+    font-family:aniron;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+.fl:hover{
+    color:white;
+    text-decoration:none;
+    text-shadow: white 0px 0px 5px;
+}
+
+h4{
+    color:white;
+    font-family:aniron;
+    font-size:15px;
+}
