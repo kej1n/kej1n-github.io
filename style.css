@@ -70,7 +70,7 @@ body{
     }
     .btnarmy{
         color:#FF5E00;
-        font-size:10px;
+        font-size:15px;
         font-family: aniron;
         max-width: 80%;
     }
@@ -109,7 +109,7 @@ body{
     }
     .btnarmy{
         color:#FF5E00;
-        font-size:10px;
+        font-size:15px;
         font-family: aniron;
         max-width: 90%;
     }
@@ -157,7 +157,7 @@ display:block;}
 }
 .btnarmy{
     color:#FF5E00;
-    font-size:20px;
+    font-size:15px;
     font-family: aniron;
     max-width: 80%;
     position: relative;
@@ -606,7 +606,7 @@ border-radius:20px 20px 0px 0px;
 
 .btnarmy{
     color:#FF5E00;
-    font-size:20px;
+    font-size:15px;
     font-family: aniron;
     position:relative;
     top:70px;
