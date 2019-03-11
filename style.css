@@ -49,12 +49,9 @@ body{
         .caroup{
             font-size:20px;
             color:white;
+            margin-bottom:15px;
         }
 
-        .carousel-caption{
-            position: absolute;
-            top:20px;
-        }
         .badge{display:none;}
     .bspecial{display:none;}
 }
@@ -86,13 +83,14 @@ body{
     }
 
     .carouh{
-        font-size:40px;
+        font-size:60px;
         color:white;
     }
     
     .caroup{
         font-size:20px;
         color:white;
+        margin-bottom:60px;
     }
     .badge{display:none;}
     .bspecial{display:none;}
@@ -131,6 +129,7 @@ body{
     .caroup{
         font-size:25px;
         color:white;
+        margin-bottom:100px;
     }
 
     .badge{display:none;}
